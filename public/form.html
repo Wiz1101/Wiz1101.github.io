@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wiz1101</title>
+    <link rel="icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+</head>
+
+<body>
+    <section id="form">
+        <p class="section__text__p1">Fill the</p>
+        <h1 class="title">Form</h1>
+        <div class="form-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <!-- Form-->
+                    <form action="s.php" method="post">
+                        <table>
+                            <tr>
+                                <th>
+                                    <label for="cardName">Cardholder Name:</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="cardName" name="cardName" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="amount">Amount:</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="amount" name="amount" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="cardType">Card Type:</label>
+                                </th>
+                                <td>
+                                    <select id="cardType" name="cardType" required>
+                                        <option value="visa">Visa</option>
+                                        <option value="mastercard">MasterCard</option>
+                                        <!-- Add other card types as needed -->
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="cardNumber">Card Number:</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="cardNumber" name="cardNumber" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="validity">Validity (MM/YYYY):</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="validity" name="validity" placeholder="MM/YYYY" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align: center;">
+                                    <input type="submit" value="Submit Payment">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    
+
+                </div>
+            </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#typography">Typography</a></li>
+                    <li><a href="#form">Form</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Shota Napetvaridze. All Rights Reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
