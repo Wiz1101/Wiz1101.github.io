@@ -35,8 +35,5 @@
     "stylelint": "^15.11.0",
     "stylelint-config-recommended": "^13.0.0",
     "vite": "^4.5.0"
-  },
-  "dependencies": {
-    "@material-ui/core": "^4.12.4"
   }
 }
