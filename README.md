@@ -1,2 +1,2 @@
 # Wiz1101.github.io
-Hello this is my portfolio page
+Hello, this is my portfolio page
