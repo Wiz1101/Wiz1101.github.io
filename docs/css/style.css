@@ -1,6 +1,7 @@
 /* GENERAL */
 /* Shota Napetvaridze*/
 
+
 * {
   margin: 0;
   padding: 0;
@@ -177,6 +178,19 @@ section {
   margin: auto 0;
 }
 
+.details-container-gif {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  display: block; 
+  margin: auto 0;
+
+
+}
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -279,6 +293,14 @@ section {
   flex-direction: column;
 }
 
+.about-details-container-gif{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
 .about-containers,
 .about-details-container {
   display: flex;
@@ -287,6 +309,9 @@ section {
 .about-pic {
   border-radius: 2rem;
   align-self: ce;
+  max-width: 100%; 
+
+
 }
 
 .arrow {
@@ -295,9 +320,21 @@ section {
   bottom: 2.5rem;
 }
 
+
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.details-container-midle {
+  padding: 1.5rem;
+  width: 700px;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
