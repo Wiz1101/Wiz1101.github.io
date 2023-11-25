@@ -391,6 +391,13 @@ article {
 article .icon {
   cursor: default;
 }
+/* BIO */
+#bio {
+  display: flex;
+  justify-content: flex;
+  flex-direction: column;
+  height: 65vh;
+}
 
 /* PROJECTS SECTION */
 
