@@ -47,13 +47,13 @@ nav {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
-  color: grey;
+  color: rgb(201, 242, 185);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
