@@ -17,7 +17,11 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(174, 173, 173);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
 }
 
 /* TRANSITION */
