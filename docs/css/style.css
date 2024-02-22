@@ -10,11 +10,8 @@
 body {
   font-family: "Poppins", sans-serif;
   background-image: url("/img/background.gif");
-  max-width: 100%;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  background-size: contain;
+  background-position: center;
 }
 
 html {
