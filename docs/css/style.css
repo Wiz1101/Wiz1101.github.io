@@ -13,7 +13,7 @@ h3 {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("/img/background.gif");
+  background-color: rgb(255, 255, 255);
   background-size: contain;
   background-position: center;
 }
@@ -53,7 +53,7 @@ nav {
 }
 
 a {
-  color: white;
+  color: rgb(10, 10, 10);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -104,7 +104,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -524,5 +524,5 @@ input[type="submit"] {
 
 .text-container p {
   margin-bottom: 20px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
